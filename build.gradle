@@ -1,0 +1,11 @@
+apply plugin: 'groovy'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile group: 'org.fusesource', name: 'sigar', version: '1.6.4'
+}
